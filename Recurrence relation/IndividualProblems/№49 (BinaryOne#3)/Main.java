@@ -62,8 +62,6 @@ public class Main {
             if (B1Indexes.size() == n) result++;
         }
 
-
-
         FileWriter fileWriter = new FileWriter(new File("output.txt"));
         fileWriter.write(String.valueOf(result));
         fileWriter.flush();
